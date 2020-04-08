@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initializer();
-        setUserDOB();
+        setGivenDate();
     }
 
-    private void setUserDOB() {
+    private void setGivenDate() {
         setDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
