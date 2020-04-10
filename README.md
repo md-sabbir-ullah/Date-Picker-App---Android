@@ -33,7 +33,9 @@ private void setGivenDate() {
     }
  ```
 # For Spinner Theme:
-Inspired By: David Rawson [GoTo: github.com/drawers/SpinnerDatePicker](https://https://github.com/drawers/SpinnerDatePicker)
+Inspired By: David Rawson [GoTo: github.com/drawers/SpinnerDatePicker](https://github.com/drawers/SpinnerDatePicker)
+
+As the ~~SpinnerDatePicker~~ style is deprecated you need to create your own style.
 
 First: you need to add the highlighted dependencies to your project build.gradle(project) and build.gradle(module) files. After adding following lines press "Sync now" and make sure that gradle-Sync is complete successfully.
 
