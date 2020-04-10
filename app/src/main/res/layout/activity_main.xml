@@ -14,9 +14,31 @@
         android:layout_margin="50dp"
         android:padding="5dp"
         android:textAlignment="center"
-        android:text="Set Date"
+        android:text="Set Date\n(Default Theme)"
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tv_setdateTwoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Set Date\n(Spinner Theme)"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_resetID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Reset Both"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"/>
 
 </LinearLayout>
