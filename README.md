@@ -56,6 +56,12 @@ Now you have to implement the following Interface to your java class and you wil
 ```java
 public class MainActivity extends AppCompatActivity implements com.tsongkha.spinnerdatepicker.DatePickerDialog.OnDateSetListener {
 ```
+Initialize "SimpleDateFormat" object:
+
+```java
+simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.US);
+```
+
 Do the following code in the following method where "setDateTwo" is a "TextView" type
 object which is holding ID of "Set Date (Spinner Theme) - TextView" from layout XML file :
 
@@ -89,4 +95,4 @@ private void setGivenDateTwo() {
         });
     }
 ```
-Thats it! Enjoy.
+That's it! Enjoy.
